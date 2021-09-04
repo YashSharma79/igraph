@@ -15,8 +15,6 @@ using namespace std;
 
 int igraph_shortest_paths_floyd_warshall(const igraph_t *graph,
                                        igraph_matrix_t *res,
-                                       const igraph_vs_t from,
-                                       const igraph_vs_t to,
                                        const igraph_vector_t *weights,
                                        igraph_neimode_t mode)
 {
