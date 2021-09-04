@@ -1,3 +1,15 @@
+#include "igraph_paths.h"
+
+#include "igraph_adjlist.h"
+#include "igraph_dqueue.h"
+#include "igraph_interface.h"
+#include "igraph_memory.h"
+#include "igraph_stack.h"
+
+#include "core/indheap.h"
+#include "core/interruption.h"
+
+#include <string.h>
 
 using namespace std;
 
