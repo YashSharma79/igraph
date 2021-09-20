@@ -222,6 +222,7 @@ add_library(
   paths/dijkstra.c
   paths/distances.c
   paths/eulerian.c
+  paths/floyd_warshall.c
   paths/histogram.c
   paths/johnson.c
   paths/random_walk.c

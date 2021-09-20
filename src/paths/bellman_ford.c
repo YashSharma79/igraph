@@ -71,6 +71,13 @@
  *
  * \example examples/simple/bellman_ford.c
  */
+
+/**
+* res is the result matrix that will store the final shortest distance
+* igraph_vs_t (vertex selector) is a way to reference a sequence of vertices or edges independently of the graph.
+*
+*/
+
 int igraph_shortest_paths_bellman_ford(const igraph_t *graph,
                                        igraph_matrix_t *res,
                                        const igraph_vs_t from,
